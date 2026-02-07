@@ -1,18 +1,18 @@
-<div style="text-align: right;">
-  <input type="radio" id="lang-en" name="language" checked>
-  <label for="lang-en" style="cursor: pointer; color: #0366d6; font-weight: bold;">English</label> | 
-  <input type="radio" id="lang-zh" name="language">
-  <label for="lang-zh" style="cursor: pointer; color: #666;">中文</label>
-</div>
-
 <style>
-  input[type="radio"] { display: none; }
-  #content-zh { display: none; }
-  #lang-en:checked ~ #content-en { display: block; }
-  #lang-en:checked ~ #content-zh { display: none; }
-  #lang-zh:checked ~ #content-en { display: none; }
-  #lang-zh:checked ~ #content-zh { display: block; }
+input[type="radio"] { display: none; }
+#content-zh { display: none; }
+#lang-en:checked ~ #content-en { display: block; }
+#lang-en:checked ~ #content-zh { display: none; }
+#lang-zh:checked ~ #content-en { display: none; }
+#lang-zh:checked ~ #content-zh { display: block; }
 </style>
+
+<div style="text-align: right; margin-bottom: 20px;">
+  <input type="radio" id="lang-en" name="language" checked>
+  <label for="lang-en" style="cursor: pointer; color: #0366d6; font-weight: bold; text-decoration: none;">English</label> | 
+  <input type="radio" id="lang-zh" name="language">
+  <label for="lang-zh" style="cursor: pointer; color: #666; text-decoration: none;">中文</label>
+</div>
 
 <div id="content-en">
 
